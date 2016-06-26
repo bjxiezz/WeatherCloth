@@ -2,13 +2,14 @@
 var $inputCity = $("#inputCity");
 
   
-$("form").submit(function(event){
-	event.preventDefault(); 
-    //alert(inputCity.value);
-
+    $("form").submit(function(){
+		
+        alert($inputCity.value);
+    });  
+  
   
   $.simpleWeather({	// v3.1.0, Docs at http://simpleweatherjs.com
-    location: inputCity.value,
+    location: 'Louisville, KY',//location: $inputCity.value,
     woeid: '',
     unit: 'f',
     success: function(weather) {
@@ -23,5 +24,3 @@ $("form").submit(function(event){
       $("#weather").html('<p>'+error+'</p>');
     }//end of error
   });//end of simpleWeather
-}); //end of form.sumbit  
-  

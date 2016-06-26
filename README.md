@@ -18,3 +18,8 @@ History of this project
 	estabolish a html/css/JS website using jquery plugin "simpleWeather"
 		version 3.1.0, website: http://simpleweatherjs.com/
 (2) fix font problem
+	download all font files used in style.css and save them in the folder ../font/
+	change the links in the css file to pointing to the new location of the font files
+(3) add a form with a submit button to change the input city
+	html, form: example from http://www.w3schools.com/html/html_forms.asp
+	JS/jQuery.submit()example from https://api.jquery.com/submit/
