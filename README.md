@@ -10,8 +10,18 @@ You’re the first group to learn/use the MEAN stack, so we don’t have any ful
 but you can find a list of demo videos (we no longer record these) on our YouTube channel, here: 
 https://www.youtube.com/playlist?list=PLKFlVlvK_fALmJ2QLM9PxOMb3qTubclsz
 
-I’ll be at the beginning of your meetup this week to do some Q&A around projects!
-@becky shared a file: A Simple Guide to Code Louisville Projects
+
+Git commands to update files at Github
+	(right click on the folder, and select "Git Bash Here")
+	git init //only used for the 1st time
+	git add .
+	git commit -m 'week 4 clone'
+	git remote -v
+
+	
+	--copy from gitHub to local computer drive
+	git clone https://github.com/bjxiezz/Weather.git
+
 
 History of this project
 (1) jQuery plugin simpleweatherjs working locally
@@ -23,3 +33,5 @@ History of this project
 (3) add a form with a submit button to change the input city
 	html, form: example from http://www.w3schools.com/html/html_forms.asp
 	JS/jQuery.submit()example from https://api.jquery.com/submit/
+(4) add cloth
+	cloth image from website: https://www.thenorthface.com/
