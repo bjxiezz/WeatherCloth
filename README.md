@@ -15,7 +15,7 @@ Git commands to update files at Github
 	(right click on the folder, and select "Git Bash Here")
 	git init //only used for the 1st time
 	git add .
-	git commit -m 'week 4 clone'
+	git commit -m 'some message for the update'
 	git remote -v
 
 	
