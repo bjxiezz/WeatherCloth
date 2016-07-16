@@ -1,0 +1,28 @@
+{
+  "name": "WeatherCloth",
+  "version": "1.0.0",
+  "description": "This is the project for codeLouisville by Hong Gao and Zhengzhi Xie",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjxiezz/WeatherCloth"
+  },
+  "author": "Hong Gao and Zhengzhi Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjxiezz/WeatherCloth"
+  },
+  "homepage": "https://github.com/bjxiezz/WeatherCloth#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "body-parser": "1.14.2",
+    "express": "4.13.4",
+    "mongoose": "4.4.5"
+  },
+  "devDependencies": {
+    "webpack": "1.12.14"
+  }
+}

@@ -1,4 +1,4 @@
-This project is to fufill the requirement of CodeLouisville training for JavaScrip
+﻿This project is to fufill the requirement of CodeLouisville training for JavaScrip
 The detail requirments:
 https://docs.google.com/presentation/d/1A1P955ZlZKez2w3ENOrERpRln67Z9hfIxFPj5U1Ig6I/edit#slide=id.p
 https://github.com/CodeLouisville/Student-Resources/wiki/Project-Requirements
@@ -17,11 +17,19 @@ Git commands to update files at Github
 	git add .
 	git commit -m 'some message for the update'
 	git remote -v
-
+	git remote add origin https://github.com/bjxiezz/Weather.git // only for the first time
+	git push origin master
 	
 	--copy from gitHub to local computer drive
 	git clone https://github.com/bjxiezz/Weather.git
 
+Cities to test the app
+	Prudhoe bay, AL
+	Louisville, KY
+	Manaus, Brazil
+	Punta Arenas, Chile
+	Puerto Montt, Chile
+	
 
 History of this project
 (1) jQuery plugin simpleweatherjs working locally
@@ -35,3 +43,20 @@ History of this project
 	JS/jQuery.submit()example from https://api.jquery.com/submit/
 (4) add cloth
 	cloth image from website: https://www.thenorthface.com/
+(5) switch to Angular and put on 3 pages structure
+	remove cloth
+	angular submition of a form, and Enables binding angular expressions to onsubmit events
+		example from: https://docs.angularjs.org/api/ng/directive/ngSubmit
+		'use strict' does not work for controller
+(6) Show cloth with if selection based on highest temp 
+		using JavaScript if ... else statement
+(7) finish 3 page structure
+(8) using Angular service 
+	change ng-app in index.html index2.html "submitCity" to "weatherCloth", and move to body tag
+	change controller name from ExampleController to mainCtrl
+	test angular service using example at http://www.w3schools.com/angular/angular_services.asp
+	using angular service to determine today/tomorrow based on current url
+(9) fix the alignment problem at about.html
+(10) add angular directives for about.html
+(11) add node.js and express (static part)
+		
