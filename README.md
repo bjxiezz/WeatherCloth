@@ -59,4 +59,5 @@ History of this project
 (9) fix the alignment problem at about.html
 (10) add angular directives for about.html
 (11) add node.js and express (static part)
+(12) add mock data
 		
