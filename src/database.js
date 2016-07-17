@@ -1,5 +1,5 @@
 'use strict';
-
+//connect mongoDB and JS
 var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/mean-todo', function(err) {

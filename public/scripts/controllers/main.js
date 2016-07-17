@@ -21,17 +21,18 @@ app.controller('mainCtrl', function($scope, dataService) {
 					$("#weather").html(html);
 								
 					//select cloth imagine and show cloth imagine
-						if (weather.forecast[inputDay].high > 80) {
-							clothImagine = 'img/cloth/Tshirt.jpg'					
-						} else if (weather.forecast[inputDay].high > 60){
-							clothImagine = 'img/cloth/shirt.jpg'
-						} else if (weather.forecast[inputDay].high > 40){
-							clothImagine = 'img/cloth/jacket.jpg'
-						} else {
-							clothImagine = 'img/cloth/Coat.jpg'
-						}
-						htmlImg = '<img src="' + clothImagine + '" alt="clothOfWeather" style="width:228px;height:228px;">';
-						$("#cloth").html(htmlImg);
+					if (weather.forecast[inputDay].high > 80) {
+						clothType = 'Tshirt'					
+					} else if (weather.forecast[inputDay].high > 60){
+						clothType = 'shirt'
+					} else if (weather.forecast[inputDay].high > 40){
+						clothType = 'jacket'
+					} else {
+						clothType = 'Coat'
+					}
+					clothImagine = 'img/cloth/' + clothType + '.jpg';
+					htmlImg = '<img src="' + clothImagine + '" alt="clothOfWeather" style="width:228px;height:228px;">';
+					$("#cloth").html(htmlImg);
 				},//end of success
 				error: function(error) {
 				  $("#weather").html('<p>'+error+'</p>');
