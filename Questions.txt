@@ -1,0 +1,15 @@
+(1) after moving public/scripts/ into app/, and updating <scripts> tags in html, 
+--change from 
+<script src="scripts/app.js" type="text/javascript" charset="utf-8"></script>
+--to
+<script src="../app/app.js" type="text/javascript" charset="utf-8"></script>
+--get error message
+GET http://localhost:3000/app/app.js 
+GET http://localhost:3000/app/app.js 
+Uncaught ReferenceError: app is not defined
+Uncaught ReferenceError: app is not defined
+Uncaught ReferenceError: app is not defined
+
+--notice it is not a 404 error
+
+(2) I used $rootScope for data exchange between different Angular controllers. Is there a better way?
