@@ -23,7 +23,7 @@ Git commands to update files at Github
 	--copy from gitHub to local computer drive
 	git clone https://github.com/bjxiezz/Weather.git
 
-Cities to test the app
+Cities to test the app (We can use any city all over the world)
 	Prudhoe bay, AL
 	Louisville, KY
 	Manaus, Brazil
