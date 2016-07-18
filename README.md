@@ -60,4 +60,7 @@ History of this project
 (10) add angular directives for about.html
 (11) add node.js and express (static part)
 (12) add mock data
+(13) tried move scripts to app directory, but failed
+(14) Added Change the cloth function 
+(15) Setting Up MongoDB
 		
