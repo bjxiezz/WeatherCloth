@@ -63,5 +63,5 @@ History of this project
 (13) tried move scripts to app directory, but failed
 (14) Added Change the cloth function 
 (15) Setting Up MongoDB
-(16) fixed screen width problem
+(16) Fixed screen width problem
 		
